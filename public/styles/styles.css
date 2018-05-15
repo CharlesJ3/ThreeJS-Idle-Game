@@ -1,0 +1,51 @@
+#userView {
+  max-width: 800px;
+  max-height: 300px;
+  width: 800px;
+  height: 300px;
+  display: inline-block;
+}
+
+#userViewBottom {
+  width: 800px;
+  height: 300px;
+  border: 1px solid red;
+  background-color: black;
+}
+
+#main {
+  max-width: 800px;
+  max-height: 300px;
+  width: 800px;
+  height: 300px;
+  margin-bottom: -5px;
+  border: 1px solid red; 
+}
+
+#informationOne, #informationTwo, #informationThree {
+  border: 1px solid red;
+  display: inline-block;
+  float: left;
+  height: 300px;
+  width: 264px;
+  margin: 0 auto;
+}
+
+p {
+  color: red;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#initialLoad {
+  background-color:black;
+  width: 799px;
+  height: 599px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
