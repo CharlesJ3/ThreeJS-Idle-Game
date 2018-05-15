@@ -25,9 +25,9 @@
 #informationOne, #informationTwo, #informationThree {
   border: 1px solid red;
   display: inline-block;
-  float: left;
-  height: 300px;
-  width: 264px;
+  height: 299px;
+  width: 262px;
+  border-radius: 10px;
   margin: 0 auto;
 }
 
