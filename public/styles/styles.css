@@ -1,9 +1,9 @@
+body{
+  margin: 0;
+}
+
 #userView {
-  max-width: 800px;
-  max-height: 300px;
-  width: 800px;
-  height: 300px;
-  display: inline-block;
+
 }
 
 #userViewBottom {
@@ -24,11 +24,27 @@
 
 #informationOne, #informationTwo, #informationThree {
   border: 1px solid red;
-  display: inline-block;
   height: 299px;
   width: 262px;
-  border-radius: 10px;
   margin: 0 auto;
+}
+
+#informationOne{
+  position: absolute;
+  top: 301px;
+  left: 0px;
+}
+
+#informationTwo{
+  position: absolute;
+  top: 301px;
+  left: 269px; 
+}
+
+#informationThree{
+  position: absolute;
+  top: 301px;
+  left: 537px; 
 }
 
 p {
